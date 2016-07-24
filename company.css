@@ -1,0 +1,309 @@
+/*-------company all---------*/
+.company .first{
+	padding: 0 10px!important;
+}
+.company-h1{
+	width: 100%;
+	height:50px;
+	line-height:50px;
+	margin: 10px 0 20px 0;
+	padding:0 20px;
+	border-bottom: 3px solid #0F67BA;
+	font-size:150%;
+	font-weight:bold;
+	color:#000;
+}
+.company-link{
+	margin: 30px 0;
+}
+.company-link ul{
+}
+.company-link a {
+	display: block;
+  width: 120px;
+	height: 30px;
+  border: 1px solid #0F67BA;
+  background: #fff;
+  color: #0F67BA;
+  margin: auto;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+	margin: 0 10px;
+  padding: 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.company-link a:hover {
+  background: #0F67BA;
+  color: #fff;
+  text-decoration: none;
+  opacity: 1;
+}
+.company-link .current {
+  background: #0F67BA;
+  color: #fff;
+  text-decoration: none;
+  opacity: 1;
+}
+.company-link li{
+	float: left;
+}
+
+/*-------会社概要---------*/
+.company-table {
+	font-size: 100%;
+	line-height: 1.4;
+	text-align: left;
+	/*layout*/
+	table-layout: auto;
+	border-collapse: collapse;
+	width: 100%;
+	margin: 0 auto;
+}
+.company-table th {
+	/*font*/
+	font-size: 100%; /* 14px */
+	font-weight: normal;
+	text-align: left;
+	color: #4b636d;
+	width: 22%;
+	padding: 12px 15px 12px 0;
+	vertical-align: top;
+	border-collapse: collapse;
+	border-top: 1px solid #B3C5CF;
+	border-bottom: 1px solid #B3C5CF;
+}
+.company-table td {
+	padding: 16px 0 16px 0;
+	border: 0;
+	line-height: 1.2;
+	border-collapse: collapse;
+	border-top: 1px solid #B3C5CF;
+	border-bottom: 1px solid #B3C5CF;
+}
+.company-table a {
+	font-weight: bold;
+	color:#0F67BA
+}
+
+/*-------代表メッセージ---------*/
+.message-body{
+	padding-bottom: 80px;
+	border-bottom: 1px solid #B3C5CF
+}
+h2.message-h2{
+	width: 100%;
+	height:50px;
+	line-height:50px;
+	margin-top: 15px;
+	font-size:150%;
+	font-weight:bold;
+	color:#222222;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+}
+h3.message-h3{
+	width: 100%;
+	height:50px;
+	line-height:50px;
+	margin-top: 10px;
+	font-size:130%;
+	font-weight:bold;
+	color:#222222;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+}
+
+.message-body .alignright{
+	float:right!important;
+	margin: 20px 10px;
+	font-size: 110%;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+}
+
+/*-------役員紹介---------*/
+.staff-body{
+	padding-bottom: 60px;
+	border-bottom: 1px solid #B3C5CF
+}
+article.profile{
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #e1e1e1;
+}
+article.last{
+	border:none;
+	margin-bottom: 0;
+}
+
+.profile-right{
+	float:right;
+	width:60%;
+}
+.profile-left{
+	float:left;
+	width:37%;
+}
+.profile-header{
+	width: 100%;
+	padding: 40px 0 15px;
+	margin-bottom: 20px;
+	text-align: center;
+	border: 1px solid #e1e1e1;
+	box-shadow: 0 3px 0 rgba(8,1,2,0.03);
+}
+.profile-name{
+	font-size: 140%;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.profile-information{
+	text-align: center;
+	width:40%;
+	margin: 20px auto;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e1e1e1;
+}
+.profile-property{
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+.profile-explain p{
+	font-size: 90%;
+	line-height: 1.8;
+	margin-bottom: 4px;
+}
+.profile-img{
+	width: 100%;
+}
+
+
+/*-------教室紹介---------*/
+.classroom-body{
+	padding-bottom: 60px;
+	border-bottom: 1px solid #B3C5CF
+}
+.img-classroom{
+	width: 100%;
+}
+h2.classroom-h2{
+	width: 100%;
+	line-height:20px;
+	border-top: 1px solid #d7605e;
+	border-bottom: 1px solid #d7605e;
+	font-size:120%;
+	font-weight:bold;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	padding: 10px 15px;
+	color:#222222;
+}
+h3.classroom-h3{
+	border-left: 5px solid #0F67BA;
+	border-bottom: 1px solid #d7605e;
+	font-size: 103%;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	padding: 10px 15px;
+}
+h4.classroom-h4{
+	font-weight: bold;
+	margin: 10px 0 3px 10px;
+}
+.classroom-body a{
+	font-weight: bold;
+	font-size: 95%;
+	color:#0F67BA
+}
+.classroom-body p{
+	margin-left: 10px;
+}
+.classroom-body ul{
+	margin:10px 0 0 20px;
+}
+.classroom-body ul li{
+	margin-top:5px;
+	font-size: 90%;
+	color:#666;
+}
+p.school{
+	font-size: 90%;
+	color:#666;
+	margin-left: 15px;
+}
+
+/*-------お問い合わせ---------*/
+.contact-body{
+	padding-bottom: 60px;
+	border-bottom: 1px solid #B3C5CF
+}
+.contact-body h2{
+	font-weight: bold;
+	margin: 20px 0 5px;
+}
+.contact-body p{
+	margin-left: 10px;
+}
+.contact-body a{
+	font-weight: bold;
+	color:#0F67BA
+}
+.form-horizontal{
+	padding-left: 15px;
+}
+.form-group{
+	margin-top: 10px;
+}
+.control-label{
+	color: #222;
+}
+.form-group #input-name,.form-group #input-mail{
+	width:80%;
+	max-width: 400px;
+	height: 30px;
+}
+.form-group .textarea{
+	width:90%;
+	max-width: 800px;
+}
+.form-group button {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-bottom: 60px;
+  width: 202px;
+  height: 52px;
+  text-align: center;
+  border: 1px solid #7DCDF3;
+  color: #7DCDF3;
+  background: #fff;
+}
+.form-group button:hover {
+  background: #7DCDF3;
+  color: #fff;
+  text-decoration: none;
+  opacity: 1;
+}
+
+/*-------サンクス---------*/
+.thanks-body{
+	padding-bottom: 60px;
+	border-bottom: 1px solid #B3C5CF
+}
+.thanks-body a{
+	font-weight: bold;
+	color:#0F67BA
+}
+.contact-body p{
+	margin:0 10px;
+}
+/* Smartphones | <480px */
+@media only screen and (max-width: 30em) {
+.company-table {
+	width: 96%;
+	margin: 0 auto;
+	overflow: visible;
+}
