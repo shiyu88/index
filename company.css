@@ -406,6 +406,7 @@ figcaption h3 span{
 	text-decoration: underline;
 }
 
+
 /* Smartphones | <480px */
 @media only screen and (max-width: 30em) {
 .company-table {
