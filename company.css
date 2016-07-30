@@ -2,7 +2,6 @@
 .company .first{
 	padding: 0 10px!important;
 }
-
 .company-h1{
 	width: 100%;
 	height:50px;
@@ -301,6 +300,112 @@ p.school{
 .contact-body p{
 	margin:0 10px;
 }
+
+/*-------introduction detail---------*/
+.detail{
+	padding:0 20px;
+}
+.detail img{
+	width:100%;
+	margin: 15px auto;
+	text-align: center;
+	border: 2px solid #fff;
+}
+.detail h2{
+	width: 100%;
+	line-height:50px;
+	border-top: 1px solid #d7605e;
+	border-bottom: 1px solid #d7605e;
+	margin: 20px 10px 10px 0;
+	font-size:150%;
+	font-weight:bold;
+	padding-left: 15px;
+	color:#222222;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+}
+.detail>h3{
+	border-left: 5px solid #0F67BA;
+	width: 100%;
+	line-height:30px;
+	margin: 20px 0 10px;
+	font-size:130%;
+	font-weight:bold;
+	padding-left: 15px;
+	color:#222222;
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+}
+.detail h4{
+	font-size: 110%;
+	font-weight: bold;
+	margin: 20px 0 10px 10px;
+}
+.detail p{
+	width: 92%;
+	font-size:16px;
+	color: #333;
+	line-height:2.15;
+	margin: 10px auto;
+}
+.detail .ul{
+	margin: 10px 0 10px 50px;
+}
+.detail li{
+	margin-top: 15px;
+	font-size: 14px;
+	color: #444;
+}
+.navigation{
+	text-align: center;
+}
+.navigation li{
+	float:left;
+}
+figure {
+	position: relative;
+	overflow: hidden;
+	width: 300px;
+}
+figcaption {
+	position: absolute;
+	top: 8%;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	height: 85%;
+	background: rgba(0,0,0,.6);
+	-webkit-transition: .3s;
+	transition: .3s;
+	opacity: 0;
+}
+figure:hover figcaption {
+	opacity: 1;
+}
+figcaption h3{
+	margin-top:80px;
+	font-size: 120%;
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+               0px -5px 16px rgba(255,255,255,0.3);
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+figcaption h3 span{
+	font-size: 80%;
+}
+.detail a.introduction{
+	font-weight: bold;
+	color:#0F67BA
+}
+.detail a.introduction:hover {
+	text-decoration: underline;
+}
+.detail a.sentence{
+	color:#0F67BA
+}
+.detail a.sentence:hover {
+	text-decoration: underline;
+}
+
 /* Smartphones | <480px */
 @media only screen and (max-width: 30em) {
 .company-table {
